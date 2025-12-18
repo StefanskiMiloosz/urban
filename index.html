@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Magia Świąt - Miłosz Stefański</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #d3d3ca;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+        }
+
+        .glowny-kontener {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border: 5px double #b22222;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 20px solid #2d5a27;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 { color:rgb(156, 7, 7);}
+        h2 { color: darkgreen ;}
+
+        .tresc-i-zdjecia {
+            display: flex;
+            gap: 40px;
+        }
+
+        article {
+            flex: 2;
+        }
+
+        aside {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border: 2px solid #b22222;
+            padding: 5px;
+            background-color: #fff;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 800px) {
+            .tresc-i-zdjecia { flex-direction: column; }
+            body { padding: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glowny-kontener">
+        <header>
+            <h1>MAGIA ŚWIĄT</h1>
+            <p>Portal o polskich tradycjach bożonarodzeniowych</p>
+        </header>
+
+        <div class="tresc-i-zdjecia">
+            <article>
+                <section>
+                    <h2>O Świętach Bożego Narodzenia</h2>
+                    <p>Boże Narodzenie to w polskiej tradycji czas szczególny, przepełniony ciepłem, mimo zimowej aury za oknem. Najważniejszym momentem obchodów jest Wigilia, która przypada 24 grudnia. To wieczór, w którym cała rodzina zasiada do wspólnej kolacji.</p>
+                </section>
+
+                <section>
+                    <h2>Polskie Tradycje</h2>
+                    <ul>
+                        <li><strong>Pierwsza Gwiazdka:</strong> Zwiastuje początek wieczerzy.</li>
+                        <li><strong>Opłatek:</strong> Najważniejszy moment życzeń.</li>
+                        <li><strong>Sianko:</strong> Symbol skromności żłóbka.</li>
+                        <li><strong>Puste miejsce:</strong> Dla niespodziewanego gościa.</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>12 Potraw</h2>
+                    <p>Tradycyjnie na stole powinno znaleźć się dwanaście dań. Do najpopularniejszych należą barszcz z uszkami, karp, pierogi z kapustą i grzybami oraz kutia.</p>
+                </section>
+            </article>
+
+            <aside>
+                <img src="Zima.jpg" alt="Zima">
+                <img src="prez.jpg" alt="Prezenty">
+            </aside>
+        </div>
+
+        <footer>
+            <p>Projekt i wykonanie: <strong>Miłosz Stefański</strong>
